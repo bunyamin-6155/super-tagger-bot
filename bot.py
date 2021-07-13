@@ -4,8 +4,8 @@ from telethon.events import StopPropagation
 from telethon.tl.types import ChannelParticipantsAdmins
 from decouple import config
 TOKEN = config("1877302112:AAFLid8YxL8CyDkDaKOXY19ibcXtiJ-y__Q")
-APP_ID = config("APP_ID")
-API_HASH = config("API_HASH")
+APP_ID = config("2362303")
+API_HASH = config("486266045937e10ef2de5f8a1b8b0cdf")
 PORT = int(config("PORT", 5000))
 logging.basicConfig(
     format="%(asctime)s - %(name)s - %(message)s",
