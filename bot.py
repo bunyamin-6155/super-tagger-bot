@@ -3,7 +3,7 @@ from telethon.sync import TelegramClient, events
 from telethon.events import StopPropagation
 from telethon.tl.types import ChannelParticipantsAdmins
 from decouple import config
-TOKEN = config("TOKEN")
+TOKEN = config("1877302112:AAFLid8YxL8CyDkDaKOXY19ibcXtiJ-y__Q")
 APP_ID = config("APP_ID")
 API_HASH = config("API_HASH")
 PORT = int(config("PORT", 5000))
